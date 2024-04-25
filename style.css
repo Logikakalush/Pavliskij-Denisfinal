@@ -1,0 +1,151 @@
+body {
+    font-family: sans-serif;
+}
+header {
+    background-color: #6A48D7	;
+    padding: 20px;
+    width: 1100px;
+}
+
+header a {
+    color: black;
+    background-color: #FFDE40;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+}
+
+header img {
+    width: 200px;
+    height: 60px;
+}
+
+.sp_button {
+    background-color: #2adede;
+    border: 1px solid #2adede;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+    width: 1100px;
+}
+
+h2 {
+    color: #2E1557;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+}
+
+article {
+    font-size: 20px;
+    padding: 20px;
+    width: 80%;
+    margin: 10%;
+    border: 1px solid #19053A;
+    border-radius: 15px;
+    text-align: center;
+    background-color:#FFDE40 ;
+}
+
+article img {
+    height: 150px;
+    width: 200px;
+}
+
+.page {
+    width: 80px;
+    position: relative;
+    bottom: 100px;
+}
+
+.nb_news {
+    background-color: navy;
+    color: white;
+}
+
+footer {
+    background-color: #8fddf2;
+    padding: 10px;
+    width: 1100px;
+}
+
+footer p {
+    background-color: white;
+    padding: 5px;
+}
+.post:hover{
+    box-shadow: 0 5px 5px red;
+}
+main p {
+    margin-left: 100px;
+    font-size: 20px;
+}
+.y{
+    width: 100%;
+}
+article a{
+background-color: orange;
+    color: red;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    width: 30%;
+}
+article a:hover{
+    box-shadow: 10px 10px 10px 0 #19053A;
+}
+.r{
+    color: #19053A;
+    height: 150px;
+    text-align: left;
+    margin: 10%;
+  
+}
+.r img{
+    float: left;
+    margin-right: 17px;
+
+}
+.tg{
+    position: fixed;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    left: 90%;
+    top: 70%;
+}
+.reviews{
+    padding: 10px;
+}
+footer{
+    background-color: #6A48D7;
+}
+footer p{
+    background-color: #6A48D7;
+}
+span{
+    font-size: 30px;
+   color: #FFDE40;
+}
+.d{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    opacity: 0.7;
+}
